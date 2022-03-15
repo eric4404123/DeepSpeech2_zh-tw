@@ -1,4 +1,5 @@
 # deepspeech.pytorch
+This repository is forked from [deepspeech.pytorch](https://github.com/SeanNaren/deepspeech.pytorch)
 
 Implementation of DeepSpeech2 for PyTorch. Creates a network based on the [DeepSpeech2](http://arxiv.org/pdf/1512.02595v1.pdf) architecture, trained with the CTC activation function.
 
@@ -287,3 +288,27 @@ Pre-trained models can be found under releases [here](https://github.com/SeanNar
 ## Acknowledgements
 
 Thanks to [Egor](https://github.com/EgorLakomkin) and [Ryan](https://github.com/ryanleary) for their contributions!
+
+# 以大陸語音訓練並辯識台灣語音之結果
+
+| wav | trans | trans16k |
+| :----:| :----:| :----: |
+| 他們衝進來了 | 如很我 | 如很我 |
+| 他沒有什麼信心 | 啊哈啊啊 | 他沒有什麼信星 |
+| 你為什麼要哭 | 拉啊 | 妳為什麼要哭 |
+| 又被騙了 | 了啊啊喔 | 有被騙了 |
+| 向村里的人借錢 | 如很我 | 向村理的人借錢 |
+| 告訴我你叫什麼名字 | 可和河啊 | 告訴我你叫什麼名字 |
+| 我們恢復了信心 | 啊媽啊啊 | 我們恢復了信心 |
+| 我們繼續坐車 | 他如哈了 | 我們繼續坐車 |
+| 我在泰山有一棟房子 | 如和還和 | 我在太有一棟房子 |
+| 我想去吃中餐 | 如哈好才哈喝哈 | 我想去吃徵餐 |
+| 我還是先回家好了 | 和啊 | 還是先回家好了 |
+| 效果算是很不錯 | 他啊 | 效果示很不錯 |
+| 新北市政府 | 好他啊 | 新北市政府 |
+| 民族路那邊看看 | 把她啊呵呵 | 民族路那邊看看 |
+| 記者被打傷 | 他好啊和何 | 記者被打上 |
+| 誰都不能逼他 | 更何她河 | 誰都不能逼他 |
+| 跑去買冰淇淋 | 太和他啊 | 跑去買冰淇淋 |
+| 車站排隊排了一票人 | 他喝河河 | 車站排隊排了一票人 |
+| 電話民調 | 啊 | 電話明掉 |
